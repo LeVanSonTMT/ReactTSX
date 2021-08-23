@@ -6,9 +6,9 @@ import Navigation from './navigation';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Text>Open up App.tsx to s  tart working on your app!</Text> */}
+      <Text>Open up App.tsx to s  tart working on your app!</Text>
       <Navigation />
-      {/* <StatusBar style="auto" /> */}
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -16,8 +16,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    // backgroundColor: '#fff',
+    // alignItems: 'center',
     justifyContent: 'center',
   },
 });
